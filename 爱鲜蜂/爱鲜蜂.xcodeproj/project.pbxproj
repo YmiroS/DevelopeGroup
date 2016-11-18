@@ -25,11 +25,15 @@
 		C87DE8D51DDE8FEA00B0EDB2 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87DE8C81DDE8FEA00B0EDB2 /* UIView+CZAddition.m */; };
 		C87DE8D61DDE8FEA00B0EDB2 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87DE8CA1DDE8FEA00B0EDB2 /* UIViewController+CZAddition.m */; };
 		C87DE8D91DDE962800B0EDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87DE8D81DDE962800B0EDB2 /* Assets.xcassets */; };
+		E6A31F7AC400379E9BD51414 /* libPods-爱鲜蜂.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36ED2624060E3EB4D851EF72 /* libPods-爱鲜蜂.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16FFBF4CE87AD4A762562C99 /* Pods-爱鲜蜂.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-爱鲜蜂.release.xcconfig"; path = "Pods/Target Support Files/Pods-爱鲜蜂/Pods-爱鲜蜂.release.xcconfig"; sourceTree = "<group>"; };
+		36ED2624060E3EB4D851EF72 /* libPods-爱鲜蜂.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-爱鲜蜂.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D67E2C3567ABBEE335B5264 /* Pods-爱鲜蜂.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-爱鲜蜂.release.xcconfig"; path = "Pods/Target Support Files/Pods-爱鲜蜂/Pods-爱鲜蜂.release.xcconfig"; sourceTree = "<group>"; };
 		4F1A88CDDDBF87FF64669A8C /* libPods-爱鲜蜂.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-爱鲜蜂.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A995139CBB535A6F626E0DB0 /* Pods-爱鲜蜂.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-爱鲜蜂.debug.xcconfig"; path = "Pods/Target Support Files/Pods-爱鲜蜂/Pods-爱鲜蜂.debug.xcconfig"; sourceTree = "<group>"; };
 		C87DE8811DDE881300B0EDB2 /* 爱鲜蜂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "爱鲜蜂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87DE8851DDE881300B0EDB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C87DE8871DDE881300B0EDB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				348F0E81B245DF6F38AE09BC /* libPods-爱鲜蜂.a in Frameworks */,
+				E6A31F7AC400379E9BD51414 /* libPods-爱鲜蜂.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,10 +103,21 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		ACDF91AED2FA4C9EC5F3F692 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A995139CBB535A6F626E0DB0 /* Pods-爱鲜蜂.debug.xcconfig */,
+				16FFBF4CE87AD4A762562C99 /* Pods-爱鲜蜂.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C87DE8781DDE881300B0EDB2 = {
 			isa = PBXGroup;
 			children = (
 				C87DE8831DDE881300B0EDB2 /* 爱鲜蜂 */,
+				ACDF91AED2FA4C9EC5F3F692 /* Pods */,
+				EC2887DF9B9DF7D938E7BF1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -351,6 +367,14 @@
 				C87DE8CA1DDE8FEA00B0EDB2 /* UIViewController+CZAddition.m */,
 			);
 			path = Additions;
+			sourceTree = "<group>";
+		};
+		EC2887DF9B9DF7D938E7BF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36ED2624060E3EB4D851EF72 /* libPods-爱鲜蜂.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
