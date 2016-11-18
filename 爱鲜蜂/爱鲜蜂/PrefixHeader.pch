@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  爱鲜蜂
+//
+//  Created by 杨烁 on 2016/11/18.
+//  Copyright © 2016年 杨烁. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <YYModel.h>
+#import <UIImageView+WebCache.h>
+#import <AFNetworking.h>
+
+
+#endif /* PrefixHeader_pch */
